@@ -1,0 +1,16 @@
+{
+  "name": "cs546ws_lab3_rajatkinkhabwala",
+  "version": "1.0.0",
+  "description": "lab 3",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rajat Kinkhabwala",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "prompt": "^1.0.0"
+  }
+}
