@@ -1,0 +1,15 @@
+{
+  "name": "lab6",
+  "version": "1.0.0",
+  "description": "modules for lab6",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rajat Kinkhabwala",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
