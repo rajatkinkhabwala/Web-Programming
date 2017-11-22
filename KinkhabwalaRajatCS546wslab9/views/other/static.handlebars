@@ -1,0 +1,16 @@
+<div class="login_page">	
+	<div class="form">
+		<form method="post" id="form_static" action="/login">
+			<div>
+				<label id="user_name"><input type="text" id="username" name="username" placeholder="username" required></label>
+			</div>
+			<div>
+				<label id="pass_word"><input type="password" id="password" name="password" placeholder="password" required></label>
+			</div>
+			{{#if message}}
+				<div class="error_message">{{message}}</div>
+			{{/if}}
+			<div><button id="submitBtn" type="submit" value="Log In">Log In</button></div>
+		</form>
+	</div>
+</div>
